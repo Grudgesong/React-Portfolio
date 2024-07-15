@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { DiDotnet } from "react-icons/di";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -26,6 +27,12 @@ export const skills = [
     title: "React",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
     text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "Asp.Net",
+    icon: <DiDotnet className="h-16 w-16 text-emerald-500" />,
+    text: "Advanced proficiency in ASP.NET, developing robust and scalable back-end applications with a strong emphasis on MVC (Model-View-Controller) architecture.",
   },
 ];
 

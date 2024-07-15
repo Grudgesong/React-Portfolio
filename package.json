@@ -13,7 +13,8 @@
     "nanoid": "^5.0.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.2.1"
+    "react-icons": "^5.2.1",
+    "react-simple-typewriter": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -27,5 +28,9 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.0"
-  }
+  },
+  "description": "The Personal Portfolio project is a web application built using React JS to showcase my professional skills, projects, and experiences. It features a responsive design for optimal viewing on all devices. Developed using React JS, HTML, CSS, JavaScript, and styled with Tailwind CSS, this portfolio demonstrates my proficiency in front-end development and state management with React’s Context API. Continuous deployment is managed via GitHub, ensuring that updates are seamlessly integrated.",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
 }

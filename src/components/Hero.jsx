@@ -1,5 +1,6 @@
 import heroImg from "../assets/hero.svg";
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
@@ -8,7 +9,14 @@ export default function Hero() {
         <article>
           <h1 className="text-7xl font-bold tracking-wider">I'm Sangraj</h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
-            Front-End Developer
+            <Typewriter
+              words={["Front-End", "Full Stack"]}
+              loop={1000}
+              cursor
+              cursorStyle="_"
+              typeSpeed={100}
+            />
+            {""}Developer
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
             turning ideas into interactive reality

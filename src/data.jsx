@@ -45,4 +45,12 @@ export const projects = [
     title: "backroads app",
     text: "Created a landing page for a travel company using React.js, with the goal of catching people's attention and showing off amazing places to visit. Included attractive pictures and interesting information about different vacation options and beautiful locations. Made it easy for people to find their way around and use the website smoothly. ",
   },
+  {
+    id: nanoid(),
+    img: "https://i.postimg.cc/NfBp4c4m/Capture.png",
+    url: "",
+    github: "https://github.com/Grudgesong/ReStore--Ecommerce-Project",
+    title: "e-commerce Project",
+    text: "I developed an e-commerce application using a modern tech stack to deliver a seamless user experience. The front end is built with React.js and TypeScript, using Redux for state management and Material-UI for styling. The back end is powered by ASP.NET Core with Entity Framework and PostgreSQL for data management. The application also includes secure authentication with ASP.NET Core Identity and API integration through ASP.NET Web API.",
+  },
 ];

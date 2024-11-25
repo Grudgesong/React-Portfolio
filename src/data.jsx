@@ -4,9 +4,28 @@ import { DiDotnet } from "react-icons/di";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
+  { id: nanoid(), href: "#experience", text: "experience" },
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#projects", text: "projects" },
+];
+
+export const experience = [
+  {
+    id: nanoid(),
+    title: "Web Developer Intern",
+    text: "Emergency Response Alliance Pty Ltd",
+    location: "Perth, Australia",
+    date: '30 September 2024 - 22 December 2024',
+  },
+  {
+    id: nanoid(),
+    title: "Web Developer Intern",
+    text: "Quicksite.Guru",
+    location: "Remote",
+    date: '1 June 2024 - 30 June 2024',
+  },
+
 ];
 
 export const skills = [
